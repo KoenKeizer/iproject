@@ -1,0 +1,138 @@
+.header {
+    display: block;
+    position: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: solid 1px #DDD;
+}
+
+#videoPlayer {
+    width: 800px;
+}
+
+#progressBar {
+    width: 540px;
+    height: 30px;
+    background-color: #eee;
+    float: left;
+}
+
+#progress {
+    background-color: #455A64;
+    height: 100%;
+    width: 0%;
+}
+
+.buttonBar {
+    width: 800px;
+}
+
+.buttons {
+    float: left;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    background-color: #455A64;
+    border: none;
+    border-left: 1px solid #455A64;
+    border-right: 1px solid #455A64;
+}
+
+.buttons:hover {
+    background-color: #905A64;
+}
+
+.buttons:focus {
+    outline: none;
+}
+
+#volumeSliderDiv {
+    background-color: #455A64;
+    float: left;
+    height: 30px;
+    width: 60px;
+}
+
+#volumeSlider {
+    -webkit-appearance: none;
+    background-color: #455A64;        
+    margin-left: 2.5px;
+    height: 30px;
+    width: 55px;
+}
+
+#volumeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 5px;
+    background-color: black;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+#volumeSlider::-webkit-slider-runnable-track {
+    width: 500px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+#volumeSlider:focus {
+    outline: none;
+}
+
+#volumeSlider::-ms-track {
+    height: 15px;
+    width: 5px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+#volumeSlider::-moz-range-thumb {
+    height: 15px;
+    width: 5px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+#playlist {
+    width: 800px;
+    background-color: #222;
+    margin: 0 auto;
+    margin-top: 55px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playlistButtons {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    height: 163px;
+    background-color: #EEE;
+    flex: 0 1 25%;
+}
+
+.playlistButtons h3 {
+    margin-left: 2px;
+    position: absolute;
+    color: #000;
+    font-size: 10px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.playlistImages {
+    width: calc(800px / 4);
+}
+
+:-moz-full-screen video {
+    height: 80%;
+}
+
+:-moz-full-screen .buttonBar,
+:-moz-full-screen #progressBar {
+    width: 80%;
+}

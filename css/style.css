@@ -1,0 +1,173 @@
+@import url('http://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url('../background.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Indie Flower', cursive;
+}
+
+.contentbox {
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.input-form {
+
+}
+
+.input-form input {
+	width: 300px;
+	height: 46px;
+}
+
+.divider {
+	position: absolute;
+	width: 1px;
+	height: 60px;
+}
+
+.title {
+	font-size: 36px;
+	border-bottom: solid 1px #222;
+	padding-bottom: 10px;
+}
+
+.content {
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+.formfield {
+	width: 500px;
+	height: 550px;
+	background-color: #eee;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #F2F2F2;
+	text-align: center;
+	border: solid #333 6px;
+	font-size: 24px;
+	color: #222;
+	padding-top: 20px;
+}
+
+.formfield input {
+	width: 400px;
+	height: 55px;
+}
+
+.formfield textarea {
+	width: 400px;
+	height: 250px;
+	resize: none;
+	padding: 2px;
+}
+
+.wrapper-overlay {
+	position: fixed;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	z-index: -50;
+}
+
+.blocktext {
+	display: block;
+	font-size: 48px;
+	color: white;
+	text-align: center;
+	line-height: 2;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;	
+	border-top: 50px solid #111;
+
+}
+
+#block {
+	width: 240px;
+	height: 75px;
+	background-color: #111;
+}
+
+#squareArrow {
+	left: calc(50% - 120px);
+	position: absolute;
+	top: 0;
+}
+
+#headerImg {
+	width: 100%;
+	height: 200px;
+	background-color: #eee;
+}
+
+.navButtons {
+	text-decoration: none;
+	font-family: arial;
+	color: #000;
+}
+
+#nav {
+	background-color: #222;
+	width: 100%;
+	z-index: 200;
+	border-bottom: solid #111 6px;
+}
+
+#nav li { 
+	display: inline-block; 
+	word-spacing: 100px;
+}
+
+#nav li a{
+	display: block;
+	background-color: #222;
+	padding: 20px;
+	text-align: center;
+	color: #F2F2F2;
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+}
+.active {
+	background-color: #eee !important;
+	color: #222 !important;
+}
+#nav li:hover a{
+	background-color: #eee;
+	color: #222;
+}
+
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+footer {
+	position: relative;
+	margin-top: 200px;
+	background-color: #222;
+	width: calc(100% - 80px);
+	height: 240px;
+	padding: 40px;
+	color: #F2F2F2;
+	font-size: 12px;
+	z-index: 2;
+	border-top: 6px solid #111;
+	bottom: 0;
+}

@@ -1,0 +1,10 @@
+#deleteContainer{
+	width: 600px;
+	float: left;
+}
+#uploadForm{
+	float: right;
+	width: 500px;
+	margin-left: 20px;
+	background-color: #eee;
+}
